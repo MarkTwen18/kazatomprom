@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		180416421F35AFE80031ED70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180416411F35AFE80031ED70 /* AppDelegate.swift */; };
-		180416441F35AFE80031ED70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180416431F35AFE80031ED70 /* ViewController.swift */; };
 		180416471F35AFE80031ED70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180416451F35AFE80031ED70 /* Main.storyboard */; };
 		180416491F35AFE80031ED70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180416481F35AFE80031ED70 /* Assets.xcassets */; };
 		1804164C1F35AFE80031ED70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804164A1F35AFE80031ED70 /* LaunchScreen.storyboard */; };
+		182267791F371DB6001D2FE6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182267781F371DB6001D2FE6 /* MainViewController.swift */; };
+		1822677B1F372230001D2FE6 /* KazAtomCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822677A1F372230001D2FE6 /* KazAtomCollectionViewController.swift */; };
+		1822677D1F373198001D2FE6 /* KazAtomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822677C1F373198001D2FE6 /* KazAtomExtension.swift */; };
+		1822677F1F37346E001D2FE6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822677E1F37346E001D2FE6 /* Extensions.swift */; };
+		182267831F3739DC001D2FE6 /* IndicatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182267821F3739DC001D2FE6 /* IndicatorCollectionViewCell.swift */; };
+		182267851F3739E8001D2FE6 /* GroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182267841F3739E8001D2FE6 /* GroupCollectionViewCell.swift */; };
+		182267871F3741F5001D2FE6 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182267861F3741F5001D2FE6 /* Indicator.swift */; };
+		182267891F374BEC001D2FE6 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182267881F374BEC001D2FE6 /* Group.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1804163E1F35AFE80031ED70 /* kazatom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kazatom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180416411F35AFE80031ED70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		180416431F35AFE80031ED70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		180416461F35AFE80031ED70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180416481F35AFE80031ED70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1804164B1F35AFE80031ED70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1804164D1F35AFE80031ED70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182267781F371DB6001D2FE6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1822677A1F372230001D2FE6 /* KazAtomCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KazAtomCollectionViewController.swift; sourceTree = "<group>"; };
+		1822677C1F373198001D2FE6 /* KazAtomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KazAtomExtension.swift; sourceTree = "<group>"; };
+		1822677E1F37346E001D2FE6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		182267821F3739DC001D2FE6 /* IndicatorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorCollectionViewCell.swift; sourceTree = "<group>"; };
+		182267841F3739E8001D2FE6 /* GroupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCollectionViewCell.swift; sourceTree = "<group>"; };
+		182267861F3741F5001D2FE6 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		182267881F374BEC001D2FE6 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +69,52 @@
 			isa = PBXGroup;
 			children = (
 				180416411F35AFE80031ED70 /* AppDelegate.swift */,
-				180416431F35AFE80031ED70 /* ViewController.swift */,
+				180416591F35C1BF0031ED70 /* MainScreen */,
+				1804165A1F35C1CB0031ED70 /* KazAtom */,
+				182267811F373866001D2FE6 /* Model */,
 				180416451F35AFE80031ED70 /* Main.storyboard */,
 				180416481F35AFE80031ED70 /* Assets.xcassets */,
+				182267801F37347B001D2FE6 /* Utils */,
 				1804164A1F35AFE80031ED70 /* LaunchScreen.storyboard */,
 				1804164D1F35AFE80031ED70 /* Info.plist */,
 			);
 			path = kazatom;
+			sourceTree = "<group>";
+		};
+		180416591F35C1BF0031ED70 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				182267781F371DB6001D2FE6 /* MainViewController.swift */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		1804165A1F35C1CB0031ED70 /* KazAtom */ = {
+			isa = PBXGroup;
+			children = (
+				1822677A1F372230001D2FE6 /* KazAtomCollectionViewController.swift */,
+				1822677C1F373198001D2FE6 /* KazAtomExtension.swift */,
+				182267821F3739DC001D2FE6 /* IndicatorCollectionViewCell.swift */,
+				182267841F3739E8001D2FE6 /* GroupCollectionViewCell.swift */,
+			);
+			name = KazAtom;
+			sourceTree = "<group>";
+		};
+		182267801F37347B001D2FE6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1822677E1F37346E001D2FE6 /* Extensions.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		182267811F373866001D2FE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				182267861F3741F5001D2FE6 /* Indicator.swift */,
+				182267881F374BEC001D2FE6 /* Group.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180416441F35AFE80031ED70 /* ViewController.swift in Sources */,
+				182267891F374BEC001D2FE6 /* Group.swift in Sources */,
+				182267831F3739DC001D2FE6 /* IndicatorCollectionViewCell.swift in Sources */,
+				182267851F3739E8001D2FE6 /* GroupCollectionViewCell.swift in Sources */,
+				1822677F1F37346E001D2FE6 /* Extensions.swift in Sources */,
+				1822677B1F372230001D2FE6 /* KazAtomCollectionViewController.swift in Sources */,
+				1822677D1F373198001D2FE6 /* KazAtomExtension.swift in Sources */,
 				180416421F35AFE80031ED70 /* AppDelegate.swift in Sources */,
+				182267791F371DB6001D2FE6 /* MainViewController.swift in Sources */,
+				182267871F3741F5001D2FE6 /* Indicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +362,7 @@
 				180416521F35AFE80031ED70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
