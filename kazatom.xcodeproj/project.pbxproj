@@ -19,6 +19,7 @@
 		182267851F3739E8001D2FE6 /* GroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182267841F3739E8001D2FE6 /* GroupCollectionViewCell.swift */; };
 		182267871F3741F5001D2FE6 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182267861F3741F5001D2FE6 /* Indicator.swift */; };
 		182267891F374BEC001D2FE6 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182267881F374BEC001D2FE6 /* Group.swift */; };
+		1822678C1F375132001D2FE6 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822678B1F375132001D2FE6 /* Company.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		182267841F3739E8001D2FE6 /* GroupCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCollectionViewCell.swift; sourceTree = "<group>"; };
 		182267861F3741F5001D2FE6 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 		182267881F374BEC001D2FE6 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		1822678B1F375132001D2FE6 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				180416411F35AFE80031ED70 /* AppDelegate.swift */,
 				180416591F35C1BF0031ED70 /* MainScreen */,
 				1804165A1F35C1CB0031ED70 /* KazAtom */,
+				1822678A1F375113001D2FE6 /* Профильные Компании */,
 				182267811F373866001D2FE6 /* Model */,
 				180416451F35AFE80031ED70 /* Main.storyboard */,
 				180416481F35AFE80031ED70 /* Assets.xcassets */,
@@ -113,8 +116,16 @@
 			children = (
 				182267861F3741F5001D2FE6 /* Indicator.swift */,
 				182267881F374BEC001D2FE6 /* Group.swift */,
+				1822678B1F375132001D2FE6 /* Company.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		1822678A1F375113001D2FE6 /* Профильные Компании */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Профильные Компании";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				182267891F374BEC001D2FE6 /* Group.swift in Sources */,
 				182267831F3739DC001D2FE6 /* IndicatorCollectionViewCell.swift in Sources */,
 				182267851F3739E8001D2FE6 /* GroupCollectionViewCell.swift in Sources */,
+				1822678C1F375132001D2FE6 /* Company.swift in Sources */,
 				1822677F1F37346E001D2FE6 /* Extensions.swift in Sources */,
 				1822677B1F372230001D2FE6 /* KazAtomCollectionViewController.swift in Sources */,
 				1822677D1F373198001D2FE6 /* KazAtomExtension.swift in Sources */,

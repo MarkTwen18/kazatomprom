@@ -43,7 +43,7 @@ extension KazAtomCollectionViewController : UICollectionViewDelegateFlowLayout {
         
         if segmentedControler.selectedSegmentIndex != 0 {
             let width = (view.frame.width - 2) / 2
-            return CGSize(width: width, height: width)
+            return CGSize(width: width, height: width - 32)
         }
         
         return CGSize(width: view.frame.width, height: 184)
